@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="lem_in"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/nfs/2016/o/oposhiva/lem-in/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/nfs/2016/o/oposhiva/lem-in/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/nfs/2016/o/oposhiva/lem-in/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lem_in">
+				<Option output="/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/lem_in" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/2016/o/oposhiva/lem-in/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 lem_in"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lem_in/fast">
+				<Option output="/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/lem_in" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/2016/o/oposhiva/lem-in/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 lem_in/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/error.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/lem_in.h">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/main.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/ft_printf.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/ft_printf.h">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/get_next_line.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/get_next_line.h">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_abs.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_atoi.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_bzero.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_isalnum.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_isalpha.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_isascii.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_isdigit.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_isprint.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_itoa.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_lstadd.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_lstdel.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_lstdelone.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_lstiter.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_lstmap.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_lstnew.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_max_div.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_memalloc.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_memccpy.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_memchr.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_memcmp.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_memcpy.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_memdel.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_memmove.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_memset.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_numlen.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_numulen.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_power.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_putchar.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_putchar_fd.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_putendl.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_putendl_fd.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_putnbr.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_putnbr_fd.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_putnchr.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_putnstr.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_putstr.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_putstr_fd.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_putunbr.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_strcat.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_strchr.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_strclr.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_strcmp.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_strcpy.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_strdel.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_strdup.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_strequ.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_striter.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_striteri.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_strjoin.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_strlcat.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_strlen.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_strmap.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_strmapi.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_strncat.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_strncmp.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_strncpy.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_strnequ.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_strnew.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_strnstr.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_strrchr.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_strrev.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_strsplit.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_strstr.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_strsub.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_strtrim.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_swap.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_tolower.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_toupper.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_vig_coder.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_vig_decoder.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/libft/libft.h">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/qualifier_definition.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/type_definition.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/types/binary.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/types/char.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/types/integer.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/types/none.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/types/notation.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/types/notation_help.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/types/percent.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/types/string.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/types/unsigned.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/types/wchar.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/types/wstr.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/validation.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
