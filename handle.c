@@ -32,7 +32,7 @@ void    handle_start(t_data *base)
 	char    *line;
 
 	get_next_line(0, &line);
-	if (!ft_isdigit(line[0]))
+	if (ft_isprint())
 		error();
 
 }
