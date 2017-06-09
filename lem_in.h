@@ -19,19 +19,34 @@
 # include "printflibft/ft_printf.h"
 # include "printflibft/libft/libft.h"
 
+typedef struct  s_base
+{
+	int         ants;
+	int         rooms;
+	char        **adjacency;
+}               t_data;
+
 /*
 ** main.c
 */
-int		main(int atgc, char **argv);
+int		        main(void);
 
 /*
 ** validation.c
 */
-void    ft_read_lines();
+void            ft_read_lines(t_data *base);
 
 /*
 * error.c
 */
-void    error(void);
+void            error(void);
+void            zeroing_base(t_data *base);
+
+
+/*
+* handle.c
+*/
+void            handle_ants(char *line, t_data *base);
+void            handle_start(t_data *base);
 
 #endif

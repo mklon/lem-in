@@ -150,6 +150,33 @@ error.c.s:
 	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/error.c.s
 .PHONY : error.c.s
 
+handle.o: handle.c.o
+
+.PHONY : handle.o
+
+# target to build an object file
+handle.c.o:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/handle.c.o
+.PHONY : handle.c.o
+
+handle.i: handle.c.i
+
+.PHONY : handle.i
+
+# target to preprocess a source file
+handle.c.i:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/handle.c.i
+.PHONY : handle.c.i
+
+handle.s: handle.c.s
+
+.PHONY : handle.s
+
+# target to generate assembly for a file
+handle.c.s:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/handle.c.s
+.PHONY : handle.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -2511,6 +2538,9 @@ help:
 	@echo "... error.o"
 	@echo "... error.i"
 	@echo "... error.s"
+	@echo "... handle.o"
+	@echo "... handle.i"
+	@echo "... handle.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

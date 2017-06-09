@@ -12,13 +12,25 @@
 
 #include "lem_in.h"
 
-void    ft_read_lines()
+void    ft_read_lines(t_data *base)
 {
 	char    *line;
 
+	get_next_line(0, &line);
+	if (!*line)
+		error();
+	handle_ants(line, base);
 	while (get_next_line(0, &line) > 0)
 	{
-		if (!*line)
-			error();
+		if (ft_strequ("##start", line))
+			handle_start(base);
+		/*else if (ft_strequ("##end", line))
+			handle_end();
+		else if (line[0] == '#' && line[1] == '#')
+			handle_comments();
+		else if (line[0] == '#')
+			handle_commands();
+		else
+			check_for_rest();*/
 	}
 }

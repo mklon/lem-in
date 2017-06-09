@@ -23,8 +23,8 @@ int		ft_write(char *str, char **line)
 		return (0);
 	while (str[n] != '\n' && str[n] != '\0')
 		n++;
-	*line = ft_strnew((sizeof(char) * n + 2));
-	*line = ft_strncpy(*line, str, n + 1);
+	*line = ft_strnew((sizeof(char) * n + 1));
+	*line = ft_strncpy(*line, str, n);
 	return (n);
 }
 

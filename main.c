@@ -12,10 +12,12 @@
 
 #include "lem_in.h"
 
-int		main(int argc, char **argv)
+int		main(void)
 {
+	t_data  base;
 
-	ft_read_lines();
+	zeroing_base(&base);
+	ft_read_lines(&base);
 
 	return (0);
 }

@@ -17,3 +17,10 @@ void    error(void)
 	ft_printf("ERROR");
 	exit(2);
 }
+
+void    zeroing_base(t_data *base)
+{
+	base->ants = 0;
+	base->rooms = 0;
+	base->adjacency = NULL;
+}
