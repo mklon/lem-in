@@ -2445,6 +2445,33 @@ src/error.c.s:
 	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/error.c.s
 .PHONY : src/error.c.s
 
+src/generate.o: src/generate.c.o
+
+.PHONY : src/generate.o
+
+# target to build an object file
+src/generate.c.o:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/generate.c.o
+.PHONY : src/generate.c.o
+
+src/generate.i: src/generate.c.i
+
+.PHONY : src/generate.i
+
+# target to preprocess a source file
+src/generate.c.i:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/generate.c.i
+.PHONY : src/generate.c.i
+
+src/generate.s: src/generate.c.s
+
+.PHONY : src/generate.s
+
+# target to generate assembly for a file
+src/generate.c.s:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/generate.c.s
+.PHONY : src/generate.c.s
+
 src/handle.o: src/handle.c.o
 
 .PHONY : src/handle.o
@@ -2793,6 +2820,9 @@ help:
 	@echo "... src/error.o"
 	@echo "... src/error.i"
 	@echo "... src/error.s"
+	@echo "... src/generate.o"
+	@echo "... src/generate.i"
+	@echo "... src/generate.s"
 	@echo "... src/handle.o"
 	@echo "... src/handle.i"
 	@echo "... src/handle.s"

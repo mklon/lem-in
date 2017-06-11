@@ -2121,9 +2121,33 @@ CMakeFiles/lem_in.dir/src/error.c.o.provides: CMakeFiles/lem_in.dir/src/error.c.
 CMakeFiles/lem_in.dir/src/error.c.o.provides.build: CMakeFiles/lem_in.dir/src/error.c.o
 
 
+CMakeFiles/lem_in.dir/src/generate.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/generate.c.o: ../src/generate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/lem_in.dir/src/generate.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/generate.c.o   -c /nfs/2016/o/oposhiva/lem-in/src/generate.c
+
+CMakeFiles/lem_in.dir/src/generate.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/generate.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/o/oposhiva/lem-in/src/generate.c > CMakeFiles/lem_in.dir/src/generate.c.i
+
+CMakeFiles/lem_in.dir/src/generate.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/generate.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/o/oposhiva/lem-in/src/generate.c -o CMakeFiles/lem_in.dir/src/generate.c.s
+
+CMakeFiles/lem_in.dir/src/generate.c.o.requires:
+
+.PHONY : CMakeFiles/lem_in.dir/src/generate.c.o.requires
+
+CMakeFiles/lem_in.dir/src/generate.c.o.provides: CMakeFiles/lem_in.dir/src/generate.c.o.requires
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/generate.c.o.provides.build
+.PHONY : CMakeFiles/lem_in.dir/src/generate.c.o.provides
+
+CMakeFiles/lem_in.dir/src/generate.c.o.provides.build: CMakeFiles/lem_in.dir/src/generate.c.o
+
+
 CMakeFiles/lem_in.dir/src/handle.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/handle.c.o: ../src/handle.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/lem_in.dir/src/handle.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/lem_in.dir/src/handle.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/handle.c.o   -c /nfs/2016/o/oposhiva/lem-in/src/handle.c
 
 CMakeFiles/lem_in.dir/src/handle.c.i: cmake_force
@@ -2147,7 +2171,7 @@ CMakeFiles/lem_in.dir/src/handle.c.o.provides.build: CMakeFiles/lem_in.dir/src/h
 
 CMakeFiles/lem_in.dir/src/main.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/main.c.o: ../src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/lem_in.dir/src/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/lem_in.dir/src/main.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/main.c.o   -c /nfs/2016/o/oposhiva/lem-in/src/main.c
 
 CMakeFiles/lem_in.dir/src/main.c.i: cmake_force
@@ -2171,7 +2195,7 @@ CMakeFiles/lem_in.dir/src/main.c.o.provides.build: CMakeFiles/lem_in.dir/src/mai
 
 CMakeFiles/lem_in.dir/src/validation.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/src/validation.c.o: ../src/validation.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/lem_in.dir/src/validation.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/lem_in.dir/src/validation.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/validation.c.o   -c /nfs/2016/o/oposhiva/lem-in/src/validation.c
 
 CMakeFiles/lem_in.dir/src/validation.c.i: cmake_force
@@ -2281,6 +2305,7 @@ lem_in_OBJECTS = \
 "CMakeFiles/lem_in.dir/printflibft/qualifier_definition.c.o" \
 "CMakeFiles/lem_in.dir/printflibft/type_definition.c.o" \
 "CMakeFiles/lem_in.dir/src/error.c.o" \
+"CMakeFiles/lem_in.dir/src/generate.c.o" \
 "CMakeFiles/lem_in.dir/src/handle.c.o" \
 "CMakeFiles/lem_in.dir/src/main.c.o" \
 "CMakeFiles/lem_in.dir/src/validation.c.o"
@@ -2374,12 +2399,13 @@ lem_in: CMakeFiles/lem_in.dir/printflibft/get_next_line.c.o
 lem_in: CMakeFiles/lem_in.dir/printflibft/qualifier_definition.c.o
 lem_in: CMakeFiles/lem_in.dir/printflibft/type_definition.c.o
 lem_in: CMakeFiles/lem_in.dir/src/error.c.o
+lem_in: CMakeFiles/lem_in.dir/src/generate.c.o
 lem_in: CMakeFiles/lem_in.dir/src/handle.c.o
 lem_in: CMakeFiles/lem_in.dir/src/main.c.o
 lem_in: CMakeFiles/lem_in.dir/src/validation.c.o
 lem_in: CMakeFiles/lem_in.dir/build.make
 lem_in: CMakeFiles/lem_in.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Linking C executable lem_in"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Linking C executable lem_in"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lem_in.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -2473,6 +2499,7 @@ CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/printflibft/get_next_line.
 CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/printflibft/qualifier_definition.c.o.requires
 CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/printflibft/type_definition.c.o.requires
 CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/src/error.c.o.requires
+CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/src/generate.c.o.requires
 CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/src/handle.c.o.requires
 CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/src/main.c.o.requires
 CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/src/validation.c.o.requires

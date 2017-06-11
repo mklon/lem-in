@@ -93,6 +93,7 @@ set(SOURCE_FILES
         printflibft/qualifier_definition.c
         printflibft/type_definition.c
         src/error.c
+        src/generate.c
         src/handle.c
         src/main.c
         src/validation.c

@@ -12,6 +12,13 @@
 
 #include "../lem_in.h"
 
+void	check_for_rest(t_room *room, char *line)
+{
+	if (ft_strchr(line, ' '))
+		create_room(room, line, 8);
+	creat_link(line);
+}
+
 void	ft_read_lines(t_data *base, t_room *rooms)
 {
 	char	*line;
@@ -27,8 +34,8 @@ void	ft_read_lines(t_data *base, t_room *rooms)
 		else if (line[0] == '#' && line[1] == '#')
 			handle_comments();
 		else if (line[0] == '#')
-			handle_commands();
+			handle_commands();*/
 		else
-			check_for_rest();*/
+			check_for_rest(rooms, line);
 	}
 }

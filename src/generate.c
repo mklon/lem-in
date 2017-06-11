@@ -1,24 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   generate.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: oposhiva <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/06/07 14:19:43 by oposhiva          #+#    #+#             */
-/*   Updated: 2017/06/07 14:19:44 by oposhiva         ###   ########.fr       */
+/*   Created: 2017/06/11 14:19:54 by oposhiva          #+#    #+#             */
+/*   Updated: 2017/06/11 14:19:54 by oposhiva         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../lem_in.h"
 
-int		main(void)
+void	create_room(t_room *room, char *line, int number)
 {
-	t_data	base;
-	t_room	rooms;
 
-	zeroing_base(&base);
-	ft_read_lines(&base, &rooms);
-
-	return (0);
 }

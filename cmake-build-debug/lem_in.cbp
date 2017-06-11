@@ -352,6 +352,9 @@
 		<Unit filename="/nfs/2016/o/oposhiva/lem-in/src/error.c">
 			<Option target="lem_in"/>
 		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/src/generate.c">
+			<Option target="lem_in"/>
+		</Unit>
 		<Unit filename="/nfs/2016/o/oposhiva/lem-in/src/handle.c">
 			<Option target="lem_in"/>
 		</Unit>
