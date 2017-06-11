@@ -29,6 +29,7 @@ typedef struct		s_base
 typedef struct		s_room
 {
 	char			*name;
+	unsigned int	num;
 	struct s_room	*next;
 
 }					t_room;
@@ -59,6 +60,6 @@ void				handle_start(t_data *base, t_room *rooms);
 /*
 * generate.c
 */
-void				create_room(t_room *room, char *line, int number);
+void				create_room(t_room **room, char *line, int number);
 
 #endif

@@ -12,7 +12,9 @@
 
 #include "../lem_in.h"
 
-void	create_room(t_room *room, char *line, int number)
+void	create_room(t_room **room, char *line, int number)
 {
+	t_room	*new;
 
+	//allocate
 }

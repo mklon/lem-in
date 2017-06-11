@@ -12,30 +12,36 @@
 
 #include "../lem_in.h"
 
-void	check_for_rest(t_room *room, char *line)
+void	check_for_rest(t_room **room, char *line)
 {
+	static int	i = 2;
+
 	if (ft_strchr(line, ' '))
 		create_room(room, line, 8);
 	creat_link(line);
 }
 
-void	ft_read_lines(t_data *base, t_room *rooms)
+void	ft_read_lines(t_data *base, t_room *room)
 {
 	char	*line;
+	t_room	*temp;
+
 
 	get_next_line(0, &line);
 	handle_ants(line, base);
+	//room = malloc(sizeof(t_room)); //malloc
+	temp = room;
 	while (get_next_line(0, &line) > 0)
 	{
-		if (ft_strequ("##start", line))
-			handle_start(base, rooms);
-		/*else if (ft_strequ("##end", line))
-			handle_end();
-		else if (line[0] == '#' && line[1] == '#')
+		if (ft_strequ("##start", line) && get_next_line(0, &line) > 0)
+			create_room(&temp, line, 0);
+		else if (ft_strequ("##end", line) && get_next_line(0, &line) > 0)
+			create_room(&temp, line, 1);
+		/*else if (line[0] == '#' && line[1] == '#')
 			handle_comments();
 		else if (line[0] == '#')
 			handle_commands();*/
 		else
-			check_for_rest(rooms, line);
+			check_for_rest(&temp, line);
 	}
 }

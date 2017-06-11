@@ -15,10 +15,10 @@
 int		main(void)
 {
 	t_data	base;
-	t_room	rooms;
+	t_room	*rooms;
 
 	zeroing_base(&base);
-	ft_read_lines(&base, &rooms);
+	ft_read_lines(&base, rooms);
 
 	return (0);
 }
