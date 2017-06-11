@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "lem_in.h"
+#include "../lem_in.h"
 
 void    handle_ants(char *line, t_data *base)
 {
@@ -18,6 +18,8 @@ void    handle_ants(char *line, t_data *base)
 	long int    l;
 
 	point = line;
+	if (!*point)
+		error();
 	while (*point)
 		if (!ft_isdigit(*point++))
 			error();
@@ -27,12 +29,20 @@ void    handle_ants(char *line, t_data *base)
 	base->ants = (int)l;
 }
 
-void    handle_start(t_data *base)
+void    handle_start(t_data *base, t_room *rooms)
 {
 	char    *line;
+	char    *point;
 
 	get_next_line(0, &line);
-	if (ft_isprint())
-		error();
+	point = line;
+	while (*point != ' ')
+		point++;
+	rooms_check(line);
+	rooms->name = malloc(sizeof(char) * (point - line) + 1); //malloc
+	ft_strncpy(rooms->name, line, point - line);
+	ft_printf("|%s|\n", rooms->name);
+	//create_room;
+
 
 }

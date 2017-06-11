@@ -92,10 +92,10 @@ set(SOURCE_FILES
         printflibft/get_next_line.h
         printflibft/qualifier_definition.c
         printflibft/type_definition.c
-        error.c
-        handle.c
-        lem_in.h
-        main.c
-        validation.c)
+        src/error.c
+        src/handle.c
+        src/main.c
+        src/validation.c
+        lem_in.h)
 
 add_executable(lem_in ${SOURCE_FILES})

@@ -1,26 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   error.c                                            :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: oposhiva <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/06/08 13:09:06 by oposhiva          #+#    #+#             */
-/*   Updated: 2017/06/08 13:09:06 by oposhiva         ###   ########.fr       */
+/*   Created: 2017/06/07 14:19:43 by oposhiva          #+#    #+#             */
+/*   Updated: 2017/06/07 14:19:44 by oposhiva         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "lem_in.h"
+#include "../lem_in.h"
 
-void    error(void)
+int		main(void)
 {
-	ft_printf("ERROR");
-	exit(2);
-}
+	t_data  base;
+	t_room  rooms;
 
-void    zeroing_base(t_data *base)
-{
-	base->ants = 0;
-	base->rooms = 0;
-	base->adjacency = NULL;
+	zeroing_base(&base);
+	ft_read_lines(&base, &rooms);
+
+	return (0);
 }

@@ -82,16 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/nfs/2016/o/oposhiva/lem-in/error.c">
-			<Option target="lem_in"/>
-		</Unit>
-		<Unit filename="/nfs/2016/o/oposhiva/lem-in/handle.c">
-			<Option target="lem_in"/>
-		</Unit>
 		<Unit filename="/nfs/2016/o/oposhiva/lem-in/lem_in.h">
-			<Option target="lem_in"/>
-		</Unit>
-		<Unit filename="/nfs/2016/o/oposhiva/lem-in/main.c">
 			<Option target="lem_in"/>
 		</Unit>
 		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/ft_printf.c">
@@ -358,7 +349,16 @@
 		<Unit filename="/nfs/2016/o/oposhiva/lem-in/printflibft/types/wstr.c">
 			<Option target="lem_in"/>
 		</Unit>
-		<Unit filename="/nfs/2016/o/oposhiva/lem-in/validation.c">
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/src/error.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/src/handle.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/src/main.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/nfs/2016/o/oposhiva/lem-in/src/validation.c">
 			<Option target="lem_in"/>
 		</Unit>
 		<Unit filename="/nfs/2016/o/oposhiva/lem-in/CMakeLists.txt">

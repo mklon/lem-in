@@ -123,87 +123,6 @@ lem_in/fast:
 	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/build
 .PHONY : lem_in/fast
 
-error.o: error.c.o
-
-.PHONY : error.o
-
-# target to build an object file
-error.c.o:
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/error.c.o
-.PHONY : error.c.o
-
-error.i: error.c.i
-
-.PHONY : error.i
-
-# target to preprocess a source file
-error.c.i:
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/error.c.i
-.PHONY : error.c.i
-
-error.s: error.c.s
-
-.PHONY : error.s
-
-# target to generate assembly for a file
-error.c.s:
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/error.c.s
-.PHONY : error.c.s
-
-handle.o: handle.c.o
-
-.PHONY : handle.o
-
-# target to build an object file
-handle.c.o:
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/handle.c.o
-.PHONY : handle.c.o
-
-handle.i: handle.c.i
-
-.PHONY : handle.i
-
-# target to preprocess a source file
-handle.c.i:
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/handle.c.i
-.PHONY : handle.c.i
-
-handle.s: handle.c.s
-
-.PHONY : handle.s
-
-# target to generate assembly for a file
-handle.c.s:
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/handle.c.s
-.PHONY : handle.c.s
-
-main.o: main.c.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/main.c.o
-.PHONY : main.c.o
-
-main.i: main.c.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/main.c.i
-.PHONY : main.c.i
-
-main.s: main.c.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/main.c.s
-.PHONY : main.c.s
-
 printflibft/ft_printf.o: printflibft/ft_printf.c.o
 
 .PHONY : printflibft/ft_printf.o
@@ -2499,32 +2418,113 @@ printflibft/types/wstr.c.s:
 	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/printflibft/types/wstr.c.s
 .PHONY : printflibft/types/wstr.c.s
 
-validation.o: validation.c.o
+src/error.o: src/error.c.o
 
-.PHONY : validation.o
+.PHONY : src/error.o
 
 # target to build an object file
-validation.c.o:
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/validation.c.o
-.PHONY : validation.c.o
+src/error.c.o:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/error.c.o
+.PHONY : src/error.c.o
 
-validation.i: validation.c.i
+src/error.i: src/error.c.i
 
-.PHONY : validation.i
+.PHONY : src/error.i
 
 # target to preprocess a source file
-validation.c.i:
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/validation.c.i
-.PHONY : validation.c.i
+src/error.c.i:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/error.c.i
+.PHONY : src/error.c.i
 
-validation.s: validation.c.s
+src/error.s: src/error.c.s
 
-.PHONY : validation.s
+.PHONY : src/error.s
 
 # target to generate assembly for a file
-validation.c.s:
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/validation.c.s
-.PHONY : validation.c.s
+src/error.c.s:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/error.c.s
+.PHONY : src/error.c.s
+
+src/handle.o: src/handle.c.o
+
+.PHONY : src/handle.o
+
+# target to build an object file
+src/handle.c.o:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/handle.c.o
+.PHONY : src/handle.c.o
+
+src/handle.i: src/handle.c.i
+
+.PHONY : src/handle.i
+
+# target to preprocess a source file
+src/handle.c.i:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/handle.c.i
+.PHONY : src/handle.c.i
+
+src/handle.s: src/handle.c.s
+
+.PHONY : src/handle.s
+
+# target to generate assembly for a file
+src/handle.c.s:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/handle.c.s
+.PHONY : src/handle.c.s
+
+src/main.o: src/main.c.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.c.o:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/main.c.o
+.PHONY : src/main.c.o
+
+src/main.i: src/main.c.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.c.i:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/main.c.i
+.PHONY : src/main.c.i
+
+src/main.s: src/main.c.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.c.s:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/main.c.s
+.PHONY : src/main.c.s
+
+src/validation.o: src/validation.c.o
+
+.PHONY : src/validation.o
+
+# target to build an object file
+src/validation.c.o:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/validation.c.o
+.PHONY : src/validation.c.o
+
+src/validation.i: src/validation.c.i
+
+.PHONY : src/validation.i
+
+# target to preprocess a source file
+src/validation.c.i:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/validation.c.i
+.PHONY : src/validation.c.i
+
+src/validation.s: src/validation.c.s
+
+.PHONY : src/validation.s
+
+# target to generate assembly for a file
+src/validation.c.s:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/validation.c.s
+.PHONY : src/validation.c.s
 
 # Help Target
 help:
@@ -2535,15 +2535,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... lem_in"
-	@echo "... error.o"
-	@echo "... error.i"
-	@echo "... error.s"
-	@echo "... handle.o"
-	@echo "... handle.i"
-	@echo "... handle.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 	@echo "... printflibft/ft_printf.o"
 	@echo "... printflibft/ft_printf.i"
 	@echo "... printflibft/ft_printf.s"
@@ -2799,9 +2790,18 @@ help:
 	@echo "... printflibft/types/wstr.o"
 	@echo "... printflibft/types/wstr.i"
 	@echo "... printflibft/types/wstr.s"
-	@echo "... validation.o"
-	@echo "... validation.i"
-	@echo "... validation.s"
+	@echo "... src/error.o"
+	@echo "... src/error.i"
+	@echo "... src/error.s"
+	@echo "... src/handle.o"
+	@echo "... src/handle.i"
+	@echo "... src/handle.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/validation.o"
+	@echo "... src/validation.i"
+	@echo "... src/validation.s"
 .PHONY : help
 
 

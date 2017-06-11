@@ -21,32 +21,37 @@
 
 typedef struct  s_base
 {
-	int         ants;
-	int         rooms;
-	char        **adjacency;
-}               t_data;
+	int			ants;
+	int			rooms;
+	char		**adjacency;
+}				t_data;
 
+typedef struct  s_room
+{
+	char        *name;
+
+}               t_room;
 /*
 ** main.c
 */
-int		        main(void);
+int				main(void);
 
 /*
 ** validation.c
 */
-void            ft_read_lines(t_data *base);
+void			ft_read_lines(t_data *base, t_room *rooms);
 
 /*
 * error.c
 */
-void            error(void);
-void            zeroing_base(t_data *base);
-
+void			error(void);
+void			zeroing_base(t_data *base);
+void			rooms_check(char *line);
 
 /*
 * handle.c
 */
-void            handle_ants(char *line, t_data *base);
-void            handle_start(t_data *base);
+void			handle_ants(char *line, t_data *base);
+void			handle_start(t_data *base, t_room *rooms);
 
 #endif

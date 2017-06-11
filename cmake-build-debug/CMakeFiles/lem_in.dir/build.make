@@ -2097,100 +2097,100 @@ CMakeFiles/lem_in.dir/printflibft/type_definition.c.o.provides: CMakeFiles/lem_i
 CMakeFiles/lem_in.dir/printflibft/type_definition.c.o.provides.build: CMakeFiles/lem_in.dir/printflibft/type_definition.c.o
 
 
-CMakeFiles/lem_in.dir/error.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/error.c.o: ../error.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/lem_in.dir/error.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/error.c.o   -c /nfs/2016/o/oposhiva/lem-in/error.c
+CMakeFiles/lem_in.dir/src/error.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/error.c.o: ../src/error.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/lem_in.dir/src/error.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/error.c.o   -c /nfs/2016/o/oposhiva/lem-in/src/error.c
 
-CMakeFiles/lem_in.dir/error.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/error.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/o/oposhiva/lem-in/error.c > CMakeFiles/lem_in.dir/error.c.i
+CMakeFiles/lem_in.dir/src/error.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/error.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/o/oposhiva/lem-in/src/error.c > CMakeFiles/lem_in.dir/src/error.c.i
 
-CMakeFiles/lem_in.dir/error.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/error.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/o/oposhiva/lem-in/error.c -o CMakeFiles/lem_in.dir/error.c.s
+CMakeFiles/lem_in.dir/src/error.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/error.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/o/oposhiva/lem-in/src/error.c -o CMakeFiles/lem_in.dir/src/error.c.s
 
-CMakeFiles/lem_in.dir/error.c.o.requires:
+CMakeFiles/lem_in.dir/src/error.c.o.requires:
 
-.PHONY : CMakeFiles/lem_in.dir/error.c.o.requires
+.PHONY : CMakeFiles/lem_in.dir/src/error.c.o.requires
 
-CMakeFiles/lem_in.dir/error.c.o.provides: CMakeFiles/lem_in.dir/error.c.o.requires
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/error.c.o.provides.build
-.PHONY : CMakeFiles/lem_in.dir/error.c.o.provides
+CMakeFiles/lem_in.dir/src/error.c.o.provides: CMakeFiles/lem_in.dir/src/error.c.o.requires
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/error.c.o.provides.build
+.PHONY : CMakeFiles/lem_in.dir/src/error.c.o.provides
 
-CMakeFiles/lem_in.dir/error.c.o.provides.build: CMakeFiles/lem_in.dir/error.c.o
-
-
-CMakeFiles/lem_in.dir/handle.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/handle.c.o: ../handle.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/lem_in.dir/handle.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/handle.c.o   -c /nfs/2016/o/oposhiva/lem-in/handle.c
-
-CMakeFiles/lem_in.dir/handle.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/handle.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/o/oposhiva/lem-in/handle.c > CMakeFiles/lem_in.dir/handle.c.i
-
-CMakeFiles/lem_in.dir/handle.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/handle.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/o/oposhiva/lem-in/handle.c -o CMakeFiles/lem_in.dir/handle.c.s
-
-CMakeFiles/lem_in.dir/handle.c.o.requires:
-
-.PHONY : CMakeFiles/lem_in.dir/handle.c.o.requires
-
-CMakeFiles/lem_in.dir/handle.c.o.provides: CMakeFiles/lem_in.dir/handle.c.o.requires
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/handle.c.o.provides.build
-.PHONY : CMakeFiles/lem_in.dir/handle.c.o.provides
-
-CMakeFiles/lem_in.dir/handle.c.o.provides.build: CMakeFiles/lem_in.dir/handle.c.o
+CMakeFiles/lem_in.dir/src/error.c.o.provides.build: CMakeFiles/lem_in.dir/src/error.c.o
 
 
-CMakeFiles/lem_in.dir/main.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/lem_in.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/main.c.o   -c /nfs/2016/o/oposhiva/lem-in/main.c
+CMakeFiles/lem_in.dir/src/handle.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/handle.c.o: ../src/handle.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/lem_in.dir/src/handle.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/handle.c.o   -c /nfs/2016/o/oposhiva/lem-in/src/handle.c
 
-CMakeFiles/lem_in.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/o/oposhiva/lem-in/main.c > CMakeFiles/lem_in.dir/main.c.i
+CMakeFiles/lem_in.dir/src/handle.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/handle.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/o/oposhiva/lem-in/src/handle.c > CMakeFiles/lem_in.dir/src/handle.c.i
 
-CMakeFiles/lem_in.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/o/oposhiva/lem-in/main.c -o CMakeFiles/lem_in.dir/main.c.s
+CMakeFiles/lem_in.dir/src/handle.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/handle.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/o/oposhiva/lem-in/src/handle.c -o CMakeFiles/lem_in.dir/src/handle.c.s
 
-CMakeFiles/lem_in.dir/main.c.o.requires:
+CMakeFiles/lem_in.dir/src/handle.c.o.requires:
 
-.PHONY : CMakeFiles/lem_in.dir/main.c.o.requires
+.PHONY : CMakeFiles/lem_in.dir/src/handle.c.o.requires
 
-CMakeFiles/lem_in.dir/main.c.o.provides: CMakeFiles/lem_in.dir/main.c.o.requires
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/main.c.o.provides.build
-.PHONY : CMakeFiles/lem_in.dir/main.c.o.provides
+CMakeFiles/lem_in.dir/src/handle.c.o.provides: CMakeFiles/lem_in.dir/src/handle.c.o.requires
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/handle.c.o.provides.build
+.PHONY : CMakeFiles/lem_in.dir/src/handle.c.o.provides
 
-CMakeFiles/lem_in.dir/main.c.o.provides.build: CMakeFiles/lem_in.dir/main.c.o
+CMakeFiles/lem_in.dir/src/handle.c.o.provides.build: CMakeFiles/lem_in.dir/src/handle.c.o
 
 
-CMakeFiles/lem_in.dir/validation.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/validation.c.o: ../validation.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/lem_in.dir/validation.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/validation.c.o   -c /nfs/2016/o/oposhiva/lem-in/validation.c
+CMakeFiles/lem_in.dir/src/main.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/main.c.o: ../src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/lem_in.dir/src/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/main.c.o   -c /nfs/2016/o/oposhiva/lem-in/src/main.c
 
-CMakeFiles/lem_in.dir/validation.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/validation.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/o/oposhiva/lem-in/validation.c > CMakeFiles/lem_in.dir/validation.c.i
+CMakeFiles/lem_in.dir/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/main.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/o/oposhiva/lem-in/src/main.c > CMakeFiles/lem_in.dir/src/main.c.i
 
-CMakeFiles/lem_in.dir/validation.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/validation.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/o/oposhiva/lem-in/validation.c -o CMakeFiles/lem_in.dir/validation.c.s
+CMakeFiles/lem_in.dir/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/main.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/o/oposhiva/lem-in/src/main.c -o CMakeFiles/lem_in.dir/src/main.c.s
 
-CMakeFiles/lem_in.dir/validation.c.o.requires:
+CMakeFiles/lem_in.dir/src/main.c.o.requires:
 
-.PHONY : CMakeFiles/lem_in.dir/validation.c.o.requires
+.PHONY : CMakeFiles/lem_in.dir/src/main.c.o.requires
 
-CMakeFiles/lem_in.dir/validation.c.o.provides: CMakeFiles/lem_in.dir/validation.c.o.requires
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/validation.c.o.provides.build
-.PHONY : CMakeFiles/lem_in.dir/validation.c.o.provides
+CMakeFiles/lem_in.dir/src/main.c.o.provides: CMakeFiles/lem_in.dir/src/main.c.o.requires
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/main.c.o.provides.build
+.PHONY : CMakeFiles/lem_in.dir/src/main.c.o.provides
 
-CMakeFiles/lem_in.dir/validation.c.o.provides.build: CMakeFiles/lem_in.dir/validation.c.o
+CMakeFiles/lem_in.dir/src/main.c.o.provides.build: CMakeFiles/lem_in.dir/src/main.c.o
+
+
+CMakeFiles/lem_in.dir/src/validation.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/src/validation.c.o: ../src/validation.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/lem_in.dir/src/validation.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/src/validation.c.o   -c /nfs/2016/o/oposhiva/lem-in/src/validation.c
+
+CMakeFiles/lem_in.dir/src/validation.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/src/validation.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/o/oposhiva/lem-in/src/validation.c > CMakeFiles/lem_in.dir/src/validation.c.i
+
+CMakeFiles/lem_in.dir/src/validation.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/src/validation.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/o/oposhiva/lem-in/src/validation.c -o CMakeFiles/lem_in.dir/src/validation.c.s
+
+CMakeFiles/lem_in.dir/src/validation.c.o.requires:
+
+.PHONY : CMakeFiles/lem_in.dir/src/validation.c.o.requires
+
+CMakeFiles/lem_in.dir/src/validation.c.o.provides: CMakeFiles/lem_in.dir/src/validation.c.o.requires
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/src/validation.c.o.provides.build
+.PHONY : CMakeFiles/lem_in.dir/src/validation.c.o.provides
+
+CMakeFiles/lem_in.dir/src/validation.c.o.provides.build: CMakeFiles/lem_in.dir/src/validation.c.o
 
 
 # Object files for target lem_in
@@ -2280,10 +2280,10 @@ lem_in_OBJECTS = \
 "CMakeFiles/lem_in.dir/printflibft/get_next_line.c.o" \
 "CMakeFiles/lem_in.dir/printflibft/qualifier_definition.c.o" \
 "CMakeFiles/lem_in.dir/printflibft/type_definition.c.o" \
-"CMakeFiles/lem_in.dir/error.c.o" \
-"CMakeFiles/lem_in.dir/handle.c.o" \
-"CMakeFiles/lem_in.dir/main.c.o" \
-"CMakeFiles/lem_in.dir/validation.c.o"
+"CMakeFiles/lem_in.dir/src/error.c.o" \
+"CMakeFiles/lem_in.dir/src/handle.c.o" \
+"CMakeFiles/lem_in.dir/src/main.c.o" \
+"CMakeFiles/lem_in.dir/src/validation.c.o"
 
 # External object files for target lem_in
 lem_in_EXTERNAL_OBJECTS =
@@ -2373,10 +2373,10 @@ lem_in: CMakeFiles/lem_in.dir/printflibft/ft_printf.c.o
 lem_in: CMakeFiles/lem_in.dir/printflibft/get_next_line.c.o
 lem_in: CMakeFiles/lem_in.dir/printflibft/qualifier_definition.c.o
 lem_in: CMakeFiles/lem_in.dir/printflibft/type_definition.c.o
-lem_in: CMakeFiles/lem_in.dir/error.c.o
-lem_in: CMakeFiles/lem_in.dir/handle.c.o
-lem_in: CMakeFiles/lem_in.dir/main.c.o
-lem_in: CMakeFiles/lem_in.dir/validation.c.o
+lem_in: CMakeFiles/lem_in.dir/src/error.c.o
+lem_in: CMakeFiles/lem_in.dir/src/handle.c.o
+lem_in: CMakeFiles/lem_in.dir/src/main.c.o
+lem_in: CMakeFiles/lem_in.dir/src/validation.c.o
 lem_in: CMakeFiles/lem_in.dir/build.make
 lem_in: CMakeFiles/lem_in.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Linking C executable lem_in"
@@ -2472,10 +2472,10 @@ CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/printflibft/ft_printf.c.o.
 CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/printflibft/get_next_line.c.o.requires
 CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/printflibft/qualifier_definition.c.o.requires
 CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/printflibft/type_definition.c.o.requires
-CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/error.c.o.requires
-CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/handle.c.o.requires
-CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/main.c.o.requires
-CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/validation.c.o.requires
+CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/src/error.c.o.requires
+CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/src/handle.c.o.requires
+CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/src/main.c.o.requires
+CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/src/validation.c.o.requires
 
 .PHONY : CMakeFiles/lem_in.dir/requires
 

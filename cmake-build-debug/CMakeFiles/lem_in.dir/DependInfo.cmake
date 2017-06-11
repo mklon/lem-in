@@ -4,9 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/nfs/2016/o/oposhiva/lem-in/error.c" "/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/error.c.o"
-  "/nfs/2016/o/oposhiva/lem-in/handle.c" "/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/handle.c.o"
-  "/nfs/2016/o/oposhiva/lem-in/main.c" "/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/main.c.o"
   "/nfs/2016/o/oposhiva/lem-in/printflibft/ft_printf.c" "/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/printflibft/ft_printf.c.o"
   "/nfs/2016/o/oposhiva/lem-in/printflibft/get_next_line.c" "/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/printflibft/get_next_line.c.o"
   "/nfs/2016/o/oposhiva/lem-in/printflibft/libft/ft_abs.c" "/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/printflibft/libft/ft_abs.c.o"
@@ -92,7 +89,10 @@ set(CMAKE_DEPENDS_CHECK_C
   "/nfs/2016/o/oposhiva/lem-in/printflibft/types/unsigned.c" "/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/printflibft/types/unsigned.c.o"
   "/nfs/2016/o/oposhiva/lem-in/printflibft/types/wchar.c" "/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/printflibft/types/wchar.c.o"
   "/nfs/2016/o/oposhiva/lem-in/printflibft/types/wstr.c" "/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/printflibft/types/wstr.c.o"
-  "/nfs/2016/o/oposhiva/lem-in/validation.c" "/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/validation.c.o"
+  "/nfs/2016/o/oposhiva/lem-in/src/error.c" "/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/src/error.c.o"
+  "/nfs/2016/o/oposhiva/lem-in/src/handle.c" "/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/src/handle.c.o"
+  "/nfs/2016/o/oposhiva/lem-in/src/main.c" "/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/src/main.c.o"
+  "/nfs/2016/o/oposhiva/lem-in/src/validation.c" "/nfs/2016/o/oposhiva/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/src/validation.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

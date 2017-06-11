@@ -10,20 +10,18 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "lem_in.h"
+#include "../lem_in.h"
 
-void    ft_read_lines(t_data *base)
+void	ft_read_lines(t_data *base, t_room *rooms)
 {
-	char    *line;
+	char	*line;
 
 	get_next_line(0, &line);
-	if (!*line)
-		error();
 	handle_ants(line, base);
 	while (get_next_line(0, &line) > 0)
 	{
 		if (ft_strequ("##start", line))
-			handle_start(base);
+			handle_start(base, rooms);
 		/*else if (ft_strequ("##end", line))
 			handle_end();
 		else if (line[0] == '#' && line[1] == '#')
