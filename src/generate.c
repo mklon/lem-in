@@ -14,7 +14,15 @@
 
 void	create_room(t_room **room, char *line, int number)
 {
-	t_room	*new;
+	char    *point;
 
-	//allocate
+	rooms_check(line);
+	*room = malloc(sizeof(t_room)); //malloc
+	(*room)->num = (unsigned int)number;
+	point = line;
+	while (*point != ' ')
+		point++;
+	(*room)->name = malloc(sizeof(char) * (point - line) + 1); //malloc
+	ft_strncpy((*room)->name, line, point - line);
+	*room = (*room)->next;
 }

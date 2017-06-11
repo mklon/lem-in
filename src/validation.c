@@ -17,8 +17,9 @@ void	check_for_rest(t_room **room, char *line)
 	static int	i = 2;
 
 	if (ft_strchr(line, ' '))
-		create_room(room, line, 8);
-	creat_link(line);
+		create_room(room, line, i++);
+	else
+		;//create_link(line);
 }
 
 void	ft_read_lines(t_data *base, t_room *room)
@@ -26,10 +27,8 @@ void	ft_read_lines(t_data *base, t_room *room)
 	char	*line;
 	t_room	*temp;
 
-
 	get_next_line(0, &line);
 	handle_ants(line, base);
-	//room = malloc(sizeof(t_room)); //malloc
 	temp = room;
 	while (get_next_line(0, &line) > 0)
 	{
