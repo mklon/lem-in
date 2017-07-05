@@ -1,0 +1,58 @@
+50
+##start
+A 1 1
+##end
+B 2 1
+C 3 1
+D 4 1
+E 5 1
+F 6 1
+G 7 1
+H 8 1
+I 9 1
+J 10 1
+A-B
+A-C
+A-D
+A-E
+A-F
+A-G
+A-H
+A-I
+A-J
+B-C
+B-D
+B-E
+B-F
+B-G
+B-H
+B-I
+B-J
+C-D
+C-E
+C-F
+C-G
+C-H
+C-I
+C-J
+D-E
+D-F
+D-G
+D-H
+D-I
+D-J
+E-F
+E-G
+E-H
+E-I
+E-J
+F-G
+F-H
+F-I
+F-J
+G-H
+G-I
+G-J
+H-I
+H-J
+I-J
