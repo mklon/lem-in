@@ -56,6 +56,8 @@ typedef struct		s_room
 ** main.c
 */
 int					main(int argc, char **argv);
+void				bonus(t_room *room, t_ways **ways, int i);
+void				usage(void);
 
 /*
 ** validation.c

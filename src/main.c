@@ -14,15 +14,13 @@
 
 void	usage(void)
 {
-	ft_printf("usage: ./lem-in [-w] < source_file");
+	ft_printf("usage: ./lem-in [-w] < source_file\n");
 	exit(2);
 }
 
-void	bonus(char **argv, t_room *room, t_ways **ways, int i)
+void	bonus(t_room *room, t_ways **ways, int i)
 {
-	if (ft_strcmp(argv[1], "-w"))
-		usage();
-	ft_printf("\n");
+	ft_printf("\x1b[0m\n");
 	ft_print_ways(ways, room, i);
 }
 
@@ -34,7 +32,7 @@ int		main(int argc, char **argv)
 	t_ways	**way;
 	t_core	*core;
 
-	if (argc > 2 || ft_strcmp(argv[1], "-w"))
+	if (argc > 2 || (argc == 2 && ft_strcmp(argv[1], "-w")))
 		usage();
 	base = malloc(sizeof(t_data));
 	room = malloc(sizeof(t_room));
@@ -50,6 +48,6 @@ int		main(int argc, char **argv)
 	core->ways = way;
 	escape(core, -1);
 	if (argc == 2)
-		bonus(argv, room, way, i);
+		bonus(room, way, i);
 	return (0);
 }
